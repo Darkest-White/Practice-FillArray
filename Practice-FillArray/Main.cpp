@@ -6,8 +6,6 @@ int main()
 {
 	srand(time(0));
 
-	int t = 0;
-
 	const int SIZE = 20;
 	int arr[SIZE];
 
