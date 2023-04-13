@@ -2,13 +2,12 @@
 using namespace std;
 
 
-#define SIZE 20
-
 int main()
 {
 	srand(time(0));
 
-	int arr[SIZE]{};
+	const int SIZE = 20;
+	int arr[SIZE];
 
 	for (int i = 0; i < SIZE; i++)
 	{
