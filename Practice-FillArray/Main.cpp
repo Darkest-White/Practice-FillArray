@@ -47,6 +47,7 @@ public:
 		arr = nullptr;
 	}
 
+
 	void print_arr()
 	{
 		for (int i = 0; i < size; i++)
