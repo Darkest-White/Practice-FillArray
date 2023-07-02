@@ -67,8 +67,21 @@ public:
 			}
 		}
 
-		cout << "\n";
-		cout << "Min = " << min << endl;
+		cout << "\nMin = " << min << endl;
+	}
+
+	void find_max()
+	{
+		int max = arr[0];
+		for (int i = 0; i < size; i++)
+		{
+			if (arr[i] > max)
+			{
+				max = arr[i];
+			}
+		}
+
+		cout << "\nMax = " << max << endl;
 	}
 };
 
@@ -81,4 +94,5 @@ int main()
 
 	a.print_arr();
 	a.find_min();
+	a.find_max();
 }
