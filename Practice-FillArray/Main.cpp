@@ -2,7 +2,7 @@
 using namespace std;
 
 
-class Program
+class MyClass
 {
 private:
 
@@ -11,7 +11,7 @@ private:
 
 public:
 
-	Program(const int size = 20)
+	MyClass(const int size = 20)
 	{
 		this->size = size;
 		arr = new int[size];
@@ -40,7 +40,7 @@ public:
 		}
 	}
 
-	~Program()
+	~MyClass()
 	{
 		size = 0;
 		delete[] arr;
@@ -90,7 +90,7 @@ int main()
 {
 	srand(time(0));
 
-	Program a;
+	MyClass a;
 
 	a.print_arr();
 	a.find_min();
