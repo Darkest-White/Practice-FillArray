@@ -52,7 +52,7 @@ public:
 	{
 		for (int i = 0; i < size; i++)
 		{
-			cout << "Arr[" << i << "] = " << arr[i] << endl;
+			cout << "arr[" << i << "] = " << arr[i] << endl;
 		}
 	}
 
